@@ -1,11 +1,11 @@
-<div align="center">
+# Hotlist
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A small, browser-based collection of things worth your time. Add picks to read, listen to, watch, or go do; search and filter the list; and save favorites for later.
 
-  <h1>Built with AI Studio</h2>
+## Run locally
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Open `index.html` in a browser. Picks are saved in that browser's local storage and are not synced between devices.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Publish
 
-</div>
+The `main` branch is deployed to GitHub Pages by the workflow in `.github/workflows/pages.yml`. New commits to `main` publish automatically.
